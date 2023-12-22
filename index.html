@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Application</title>
+        <link rel="stylesheet" href="style1.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+            <div class="container">
+                <div class="grid">
+                    <img src="https://f.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg" />
+                </div>
+                <div class="grid">
+                    <input type="text" class='input' placeholder="What are you looking for ?">
+                </div>
+                <div class="grid">
+                    <ul class="right-side">
+                        <li>Cart <span> <img class="cart" src="shopping-cart.png" alt=""> </span></li>
+                        <li>Wishlist <span> <img class="wishlist" src="heart.png" alt=""></span></li>
+                        <li> العربيه | Login</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <ul class="categories">
+                    <li>ALL CATEGORIES</li>
+                    <li>ELECTRONICS</li>
+                    <li>MEN</li>
+                    <li>WOMEN</li>
+                    <li>HOME</li>
+                    <li>BEAUTY & FRAGRANCE</li>
+                    <li>BABY</li>
+                    <li>TOYS</li>
+                    <li>SPORTS</li>
+                    <li>HEALTH & NUTRITION</li>
+                    <li>BEST SELLERS</li>
+                    <li>SELL ON NOON</li>
+                </ul>
+            </div>
+
+            <div class="container-fluid">
+                <div class="sub-container">
+                    <div class="adv">
+                        <img src="https://f.nooncdn.com/mpcms/EN0001/assets/a0eaa712-685f-4c72-af24-c0e56f801300.png?format=webp" alt="">
+                    </div>
+                    <div class="adv">
+                        <img src="https://f.nooncdn.com/mpcms/EN0001/assets/43a4fb96-b242-4342-abce-a4e630ee1017.gif?format=webp" alt="">
+                        <img src="https://f.nooncdn.com/mpcms/EN0001/assets/dc5e0648-26c1-4c73-9f6b-61c7644a7ca2.png?format=webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        <script src="https://kit.fontawesome.com/3cbf053185.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+<style>
+    .categories li {
+        display: inline-block;
+        padding:    10px 25px 10px 25px; 
+        font-weight: bolder;
+        border: 1px solid #f7f7fa;
+    }
+
+    .categories li:hover {
+        background: #fff;
+        cursor: pointer;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+    .sub-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .adv:first-child img {
+        width: 99.3%;
+    }
+
+    .adv:last-child img:first-child {
+        width: 79%;
+        height: 250px;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .adv:last-child img:last-child {
+        width: 20%;
+        height: 250px;
+        position: relative;
+        bottom: 7px;
+    }
+
+</style>
